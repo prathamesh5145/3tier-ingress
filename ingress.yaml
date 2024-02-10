@@ -15,7 +15,7 @@ spec:
     - host: "a7e574afc0f7f4c9ba6fc42535571dd8-ad5aae9a308643c5.elb.ap-south-1.amazonaws.com"
         http:
         paths:
-        - path: 10.100.207.250/student/
+        - path: /student/
           pathType: Prefix
           backend:
             service:
